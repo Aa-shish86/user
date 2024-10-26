@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="userdashboard.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>Inventory System</h1>
+                <div class="profile">
+                    <img src="profile.png" alt="Admin Profile">
+                    <p>User</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    
+                      
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header>
+                <button class="menu-toggle">&#9776;</button>
+                <div class="logout">
+                    <a href="#">Log-out</a>
+                </div>
+            </header>
+          
+            <section>    
+                     <center> <div class="Bill">   
+                        <img src="billing.png">
+                          <button type="button" onclick="window.location.href='billing.html';">bill</button>  
+
+                             &nbsp;
+                             &nbsp;
+                             &nbsp;
+                             &nbsp;
+
+                         <img src="viewproduct.png">
+                         <button type="button" onclick="window.location.href='viewproduct.html';">View-product</button> 
+                       </div>
+                     </center>
+
+
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>
