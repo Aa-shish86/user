@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body insert img src="logo.png">
+    <div class="container">
+        <h1>Billing System</h1>
+        <insert img src="logo.png" alt="Logo">
+        <p>Vyas, 1 Tanahun</p>
+
+        <form action="process_form.php" method="post">
+            <label for="customer_id">Customer ID:</label>
+            <input type="text" id="customer_id" name="customer_id">
+
+            <label for="product_name">Product Name:</label>
+            <input type="text" id="product_name" name="product_name">
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity">
+
+            <button type="submit">Add</button>
+            <button type="reset">Delete</button>
+
+            <div class="bill-area">
+                </div>
+        </form>
+    </div>
+</body>
+</html>
